@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>СРС</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- подключаем стили bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <!-- navbar верхняя окошка на сайте -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- navbar-brand для название сайта -->
+    <a class="navbar-brand ml-5" href="index.html">Pixel</a>
+    <!-- .navbar-toggler для использования с нашим JS-«плагином свертывания» и других изменяющихся состояний навигации. -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- содержание navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Закладки</a>
+        </li>
+      </ul>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a type="button" class="btn btn-outline-light mr-2" href="login.html">Вход</a>
+        </li>
+        <li class="nav-item">
+          <a type="button" class="btn btn-outline-light" href="logout.html">Регистрация</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <!-- создаем контенер в виде колонки карточек -->
+        <div class="card-columns">
+          <div class="card">
+            <img src="images/image-1.jpg" class="card-img-top">
+            <div class="card-body">
+              <!-- кнопка сердце -->
+              <button type="button" class="heart btn dark"></button>
+              <!-- кнопка комент -->
+              <button type="button" class="message btn dark"></button>
+              <!-- кнопка закладки -->
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <h5 class="card-title">Наруто</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image-2.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Наруто</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image-3.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Город, в котором меня нет</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/Image-4.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Тетрадь Смерти</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/Image-5.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Врата Штейна</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image-6.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Клинок, рассекающий демонов</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image-7.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Атака Титанов</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image-8.jpg" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">Врата Штейна</h5>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/Рома.png" class="card-img-top">
+            <div class="card-body">
+              <button type="button" class="heart btn dark"></button>
+              <button type="button" class="bookmark float-right btn dark"></button>
+              <button type="button" class="message btn dark"></button>
+              <h5 class="card-title">АДМИН</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer страницы распаложен снизу -->
+    <footer class="container">
+      <p class="float-right">
+        <a href="#" class="btn btn-outline-dark"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg></a>
+      </p>
+      <p>© 2020 Company, Nuali Ramazan ·</p>
+    </footer>
+  </main>
+
+  <!-- подключаем jQuery, scripts.js, popper и bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
